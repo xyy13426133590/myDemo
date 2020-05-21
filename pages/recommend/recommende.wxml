@@ -1,0 +1,15 @@
+<swiper  current="{{currentIndex}}" class="recom_item_box" indicator-dots = "true"  autoplay = "true" interval = "2000" duration = "300">
+	<swiper-item   bindtap="handleNavitatorClick"  data-movie-id="{{item.id}}"  class="recom_item" wx:for="{{movieList}}">
+		<image class="recom_banner" src="{{movieData.image}}"></image>
+		<!-- <view class="movie_item_right"> -->
+			<text class="recom_title">{{index}}--{{item.title}}</text>
+			<text class="recom_score" wx:if="{{item.isHighScore}}">豆瓣高分</text>
+			<text class="recom_info">{{item.desc?item.desc:"我是默认值"}}</text>
+			<button wx:if="{{index !== currentIndex}}" catchtap="handleClick">返回</button>
+		<!-- </view> -->
+	</swiper-item>
+
+</swiper>
+<app-dialog id="dialog"  textContent="{{dialogContent}}" oncloseevent="closeCallback">
+<view>我是以slot方式插入的内容</view>
+</app-dialog>

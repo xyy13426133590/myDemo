@@ -1,0 +1,29 @@
+/* pages/recommend/recommende.wxss */
+
+.recom_item_box {
+  height: 1100rpx;
+}
+
+.recom_title {
+  font: 60rpx;
+}
+.recom_score {
+  color: red;
+}
+.recom_item {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.recom_banner {
+  width: 750rpx;
+  height: 750rpx;
+}
+.movie_item_right {
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-left: 20rpx; */
+}

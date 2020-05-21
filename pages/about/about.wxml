@@ -1,0 +1,9 @@
+<view class="box">
+ <image class="about_banner" src="/images/movie.jpg"></image>
+ <text class="about_title">电影推荐</text>
+ <view>
+   <text>这儿每天都有不同的</text>
+   <navigator open-type="redirect" url="/pages/recommend/recommende" style="display:inline" hover-class="navigator-hover">电影推荐</navigator>
+ </view>
+ 
+</view>

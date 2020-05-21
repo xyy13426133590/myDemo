@@ -1,0 +1,10 @@
+<!--pages/detail/detail.wxml-->
+<view class="box">
+      <image src="{{movieData.images.small}}"></image>
+       <text>{{movieData.title}}</text>
+      <text>想看：{{movieData.wish_count}}</text>
+      <!-- <text>已看：{{movieData.ratings_count}}</text> -->
+      <text>类型：{{movieData.genres}}</text>
+      <text>评分：{{movieData.rating.average}}</text>
+      <text>简介：{{movieData.summary}}</text>
+</view>

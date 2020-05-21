@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "app-dialog": "/components/dialog/dialog"
+  },
+  "navigationBarTitleText": "电影推荐",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTextStyle": "black"
+}

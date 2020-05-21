@@ -1,0 +1,8 @@
+<!--components/dialog/dialog.wxml-->
+<view class="dialog"  hidden="{{isHidden}}">
+    <view class="dialog_content">
+        <view class="dialog_close" bindtap="handleClose">x</view>
+        <text>{{textContent}}</text>
+        <slot></slot>
+    </view>
+</view>

@@ -1,0 +1,11 @@
+
+.about_banner {
+  width: 750rpx;
+  height: 750rpx;
+}
+.about_title {
+  font-size: 60rpx;
+}
+.navigator-hover {
+  color: blueviolet;
+}

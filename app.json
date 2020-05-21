@@ -1,0 +1,31 @@
+{
+  "pages": [
+    "pages/recommend/recommende",
+    "pages/about/about",
+    "pages/detail/detail"
+  ],
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/recommend/recommende",
+        "text": "电影推荐",
+        "iconPath": "./images/recom.png",
+        "selectedIconPath": "./images/recom_sel.png"
+      },
+      {
+        "pagePath": "pages/about/about",
+        "text": "小程序介绍",
+        "iconPath": "./images/about.png",
+        "selectedIconPath": "./images/about_sel.png"
+      }
+    ],
+    "selectedColor": "#8a2be2"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
